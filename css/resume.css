@@ -21,7 +21,7 @@ h5,
 h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: lowercase; /**/
   color: #343a40; }
 
 h1 {
@@ -32,7 +32,7 @@ h2 {
   font-size: 3.5rem; }
 
 .subheading {
-  text-transform: uppercase;
+  text-transform: lowercase; /**/
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem; }
@@ -51,6 +51,11 @@ h2 {
 .list-inline{
   text-align: center;
 }
+@media(min-width: 992px){
+  .list-inline{
+    text-align: center;
+  }
+}
 
 .list-icons {
   font-size: 3rem; }
@@ -59,7 +64,7 @@ h2 {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
-  text-transform: uppercase; }
+  text-transform: lowercase; } /**/
 
 @media (min-width: 992px) {
   #sideNav {
@@ -92,7 +97,7 @@ h2 {
           display: block; }
           #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
             display: block; } }
-
+/* Sekcije */
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
@@ -111,6 +116,7 @@ section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important; } }
 
+/* Barva - levi navbar stolpev */
 .bg-primary {
   background-color: #545454 !important; }
 
