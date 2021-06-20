@@ -133,3 +133,19 @@ a {
   color: #522f2f; }
   a:hover, a:focus, a:active {
     color: #824027; }
+
+/*Tabela na zavihku Znanje*/
+table, th, td {
+  border-collapse: collapse;
+}
+td {
+  width: 33vh;
+}
+.table-icons{
+  width: 50%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.row-icons{
+  font-size: 3rem;
+}
