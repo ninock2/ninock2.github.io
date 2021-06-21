@@ -142,10 +142,23 @@ td {
   width: 33vh;
 }
 .table-icons{
-  width: 50%;
+  width: 60%;
   text-align: center;
   margin-bottom: 30px;
 }
 .row-icons{
   font-size: 3rem;
+}
+
+/*Tabela na zavihku kontakt*/
+.table-icons-contact{
+  font-size: 1.2rem;
+  text-align: center;
+  width: 25%;
+  margin: 0 auto 0 auto;
+}
+/* Paragraf interesov  */
+.interests{
+  width: 60%;
+  margin: 0 auto 0 auto;
 }
